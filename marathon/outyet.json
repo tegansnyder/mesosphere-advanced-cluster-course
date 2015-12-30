@@ -1,0 +1,10 @@
+{
+  "id": "outyet",
+  "cmd": "sudo docker run --publish 6060:8080 --name test --rm outyet",
+  "cpus": 0.2,
+  "mem": 30.0,
+  "instances": 4,
+  "constraints": [
+        ["hostname", "UNIQUE", ""]
+    ]
+}
